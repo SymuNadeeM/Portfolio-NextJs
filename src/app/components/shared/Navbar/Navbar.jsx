@@ -6,10 +6,10 @@ const Navbar = () => {
           {/* large screen */}
           <div className='p-5 flex items-center justify-between'>
               {/* logo */}
-              <div>
+              <div className=" text-white">
                 SYMUN
               </div>
-              <div>
+              <div className=" text-white">
                  light
               </div>
           </div>

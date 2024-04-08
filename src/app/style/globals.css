@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
-  /* background-image: url("../assets/page-bg-dark.jpg"); */
+  background-color: #03001c;
   font-size: 16px;
 }
 .container_fluid {
