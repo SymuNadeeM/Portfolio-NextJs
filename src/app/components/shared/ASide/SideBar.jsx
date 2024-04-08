@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import profile from "../../../assets/Symun2.jpg";
 
 const SideBar = () => {
@@ -27,9 +27,19 @@ const SideBar = () => {
         </span>
         <div className="mt-3.5 flex items-center justify-center">
           <ul className="flex items-center gap-4">
-            <li className="w-[40px] h-[40px] rounded-lg text-fbColor hover:text-white bg-grayBackground bg-gradient-to-r hover:from-[#fa5252] hover:to-[#dd2476] duration-300 flex items-center justify-center">
-              <Link href={"#"}>
-                <FaFacebookF className="text-xl" />
+            <li className="social-media text-fbColor">
+              <Link href={"#"} className="link-social">
+                <FaFacebookF className="text-2xl" />
+              </Link>
+            </li>
+            <li className="social-media text-twitter">
+              <Link href={"#"} className="link-social">
+                <FaTwitter className="text-2xl" />
+              </Link>
+            </li>
+            <li className="social-media text-instr">
+              <Link href={"#"} className="link-social">
+                <FaInstagram className="text-2xl" />
               </Link>
             </li>
           </ul>
