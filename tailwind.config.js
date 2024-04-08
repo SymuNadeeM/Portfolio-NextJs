@@ -7,9 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+       grayBackground: "#1d1d1d",
+       grayText: "#a6a6a6",
+       fbColor:"#1773ea",
+       twitter: "#1c9cea",
+       instr:"#e12a72",
+       linkEnd: "#144679"
+      },
       fontFamily: {
         Roboto: "'Roboto Slab', 'serif'",
         Poppins: "'Poppins', 'sans-serif'",
+      },
+      padding: {
+        3.5: "15px",
+        7.5: "30px",
+      },
+      margin: {
+        3.5: "15px",
+        7.5: "30px",
       },
     },
   },
