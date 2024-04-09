@@ -32,6 +32,22 @@ h4,
 h5 {
   font-family: "Roboto Slab, serif" !important;
 }
+.menubar {
+  width: 84px;
+  height: 84px;
+  background-color: #212425;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition-duration: 0.3s;
+}
+.menubar:hover {
+  color: #fff !important;
+  transition-duration: 0.3s;
+  background-image: linear-gradient(to right, #fa5252, #dd2476);
+}
 
 .social-media {
   width: 40px;

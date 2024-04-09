@@ -1,5 +1,6 @@
 import "../app/style/globals.css";
 import SideBar from "./components/shared/ASide/SideBar";
+import Menubar from "./components/shared/Menubar/Menubar";
 import Navbar from "./components/shared/Navbar/Navbar";
 
 export const metadata = {
@@ -16,7 +17,10 @@ export default function RootLayout({ children }) {
           <div className="col-span-1">
           <SideBar />
           </div>
-          <main className="col-span-2">{children}</main>
+          <main className="col-span-2">
+             <Menubar />
+            {children}
+            </main>
         </div>
       </div>
     </div>

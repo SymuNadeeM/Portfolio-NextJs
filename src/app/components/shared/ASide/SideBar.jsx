@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoMdDownload } from "react-icons/io";
 import { profileData } from "../../../data/profileData";
-// Sample data array of objects
+
 
 const SideBar = () => {
   return (
@@ -30,11 +30,13 @@ const SideBar = () => {
           <div className="mt-3.5 mb-7.5 flex items-center justify-center">
             <ul className="flex items-center gap-5">
               {profileData.socialMedia.map((social, index) => (
-                <li key={index} className="social-media" style={{ color: social.color }}>
+                <li
+                  key={index}
+                  className="social-media"
+                  style={{ color: social.color }}
+                >
                   <Link href={social.link} className="link-social">
-                    <social.icon
-                      className="text-2xl" 
-                    />
+                    <social.icon className="text-2xl" />
                   </Link>
                 </li>
               ))}
@@ -44,7 +46,9 @@ const SideBar = () => {
             {profileData.contactInfo.map((contact, index) => (
               <div
                 key={index}
-                className="py-2.5 flex items-center gap-[10px] border-t border-borderColor"
+                className={`py-2.5 flex items-center gap-[10px] ${
+                  index === 0 ? "" : "border-t border-borderColor"
+                }`}
               >
                 <div className="device-media" style={{ color: contact.color }}>
                   <contact.icon className="text-2xl" />
