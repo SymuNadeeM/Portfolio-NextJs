@@ -15,7 +15,10 @@ module.exports = {
        instr:"#e12a72",
        linkEnd: "#144679",
        mobile: "#E93B81",
-       borderColor: "#333"
+       borderColor: "#333",
+       emailColor: "#6AB5B9",
+       locationColor: "#FD7590",
+       calendarColor:"#C17CEB"
       },
       fontFamily: {
         Roboto: "'Roboto Slab', 'serif'",
