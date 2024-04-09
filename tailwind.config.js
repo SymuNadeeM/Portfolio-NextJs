@@ -13,17 +13,21 @@ module.exports = {
        fbColor:"#1773ea",
        twitter: "#1c9cea",
        instr:"#e12a72",
-       linkEnd: "#144679"
+       linkEnd: "#144679",
+       mobile: "#E93B81",
+       borderColor: "#333"
       },
       fontFamily: {
         Roboto: "'Roboto Slab', 'serif'",
         Poppins: "'Poppins', 'sans-serif'",
       },
       padding: {
+        2.5: "10px",
         3.5: "15px",
         7.5: "30px",
       },
       margin: {
+        2.5: "10px",
         3.5: "15px",
         7.5: "30px",
       },

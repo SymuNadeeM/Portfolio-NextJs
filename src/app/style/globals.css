@@ -16,9 +16,9 @@ body {
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
+  color: #a6a6a6;
   background-color: #03001c;
   font-family: "Poppins, sans-serif";
-
   font-size: 16px;
 }
 .container_fluid {
@@ -42,7 +42,7 @@ h5 {
 }
 .social-media:hover {
   color: #fff; /* Text color on hover */
-  background-color: #d4d4d4; /* Default background color */
+
   background-image: linear-gradient(
     to right,
     #fa5252,
@@ -55,4 +55,23 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.device-media {
+  width: 35px;
+  height: 35px;
+  background-color: #000;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.device-media:hover {
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #fa5252,
+    #dd2476
+  ); /* Gradient on hover */
 }
