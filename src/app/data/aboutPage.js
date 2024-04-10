@@ -25,17 +25,17 @@ export const aboutData = {
   experiences : [
     {
       id: 1,
-      year: '2019 - Present',
-      company: 'Envato Market',
-      title: 'Web Developer',
+      year: '2023 - Present',
+      company: 'Nur IT',
+      title: 'Front-End Web Developer',
       description: 'Website development is the process of building, programming, coding and maintaining websites and web applications.'
     },
-    {
-      id: 2,
-      year: '2018 - Present',
-      company: 'Envato Market',
-      title: 'Web Developer',
-      description: 'Website development is the process of building, programming, coding and maintaining websites and web applications.'
-    }
+    // {
+    //   id: 2,
+    //   year: '2018 - Present',
+    //   company: 'Envato Market',
+    //   title: 'Web Developer',
+    //   description: 'Website development is the process of building, programming, coding and maintaining websites and web applications.'
+    // }
   ]
 };
