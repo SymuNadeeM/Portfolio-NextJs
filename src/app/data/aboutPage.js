@@ -21,5 +21,21 @@ export const aboutData = {
     { icon: FaLaptopCode, label: "Coding" },
     { icon: IoFastFood, label: "Eating" },
     { icon: TbCricket, label: "Playing" }
+  ],
+  experiences : [
+    {
+      id: 1,
+      year: '2019 - Present',
+      company: 'Envato Market',
+      title: 'Web Developer',
+      description: 'Website development is the process of building, programming, coding and maintaining websites and web applications.'
+    },
+    {
+      id: 2,
+      year: '2018 - Present',
+      company: 'Envato Market',
+      title: 'Web Developer',
+      description: 'Website development is the process of building, programming, coding and maintaining websites and web applications.'
+    }
   ]
 };
