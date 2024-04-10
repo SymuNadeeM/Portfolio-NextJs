@@ -25,7 +25,7 @@ export const profileData = [
       {
         icon: FaMobileAlt,
         label: "Phone",
-        value: "+123 456 7890",
+        value: "+880 153751 5034",
         color: "#E93B81",
       },
       {

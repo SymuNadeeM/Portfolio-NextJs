@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <div className="pt-[50px] pb-20 w-full h-screen bg-cover bg-no-repeat">
       <Navbar />
-      <div className="container_fluid">
+      <div className="container_fluid pt-14">
         <div className="grid grid-cols-3 gap-7">
           <div className="col-span-1">
           <SideBar />

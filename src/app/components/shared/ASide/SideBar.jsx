@@ -6,7 +6,7 @@ import { profileData } from "../../../data/profileData";
 
 const SideBar = () => {
   return (
-    <div className=" px-3.5 py-7.5 bg-black rounded-[20px]">
+    <div className="px-3.5 py-7.5 bg-black rounded-[20px] sticky top-0">
       {profileData.map((profileData, index) => (
         <div key={index} className="text-center">
           {/* image */}
@@ -21,7 +21,7 @@ const SideBar = () => {
               />
             </div>
           </div>
-          <h4 className="text-xl xl:text-2xl leading-4 font-medium text-white mb-2">
+          <h4 className="text-xl xl:text-2xl leading-4 font-medium text-white mb-3">
             {profileData.name}
           </h4>
           <span className="px-5 py-2 rounded-md  font-medium bg-grayBackground text-grayText">

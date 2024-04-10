@@ -7,28 +7,28 @@ export const aboutData = {
   about: {
     title: "About",
     description: [
-      "I am a dedicated frontend web developer with a passion for crafting engaging and dynamic user experiences. With expertise in JavaScript, React, Next.js, Node.js, CSS, Bootstrap, and Tailwind CSS, I thrive on bringing designs to life with seamless functionality and aesthetic appeal.",
-      "Having honed my skills at Nurit Software Company, I've gained invaluable experience collaborating within team environments, communicating effectively, and delivering high-quality solutions under tight deadlines. My commitment to staying abreast of the latest trends and technologies in web development ensures that I'm always equipped to tackle new challenges and push the boundaries of what's possible on the web."
-    ]
+      "I'm a diligent web developer with a knack for front-end technologies and a penchant for effective team communication. My passion lies in crafting captivating user experiences, breathing life into designs with expertise in JavaScript, React, Next.js, Node.js, CSS, Bootstrap, and Tailwind CSS. I'm always eager to learn about the latest advancements in web technologies, driven by a desire to create seamless functionality and visually stunning interfaces.",
+    ],
   },
   achievements: [
     { label: "Years of Experience", value: "3+" },
     { label: "PROJECTS COMPLETED", value: "30+" },
-    { label: "HAPPY CLIENTS", value: "10+" }
+    { label: "HAPPY CLIENTS", value: "10+" },
   ],
   interests: [
     { icon: SiYourtraveldottv, label: "Travel" },
     { icon: FaLaptopCode, label: "Coding" },
     { icon: IoFastFood, label: "Eating" },
-    { icon: TbCricket, label: "Playing" }
+    { icon: TbCricket, label: "Playing" },
   ],
-  experiences : [
+  experiences: [
     {
       id: 1,
-      year: '2023 - Present',
-      company: 'Nur IT',
-      title: 'Front-End Web Developer',
-      description: 'Website development is the process of building, programming, coding and maintaining websites and web applications.'
+      year: "2023 - Present",
+      company: "Nur IT",
+      title: "Front-End Web Developer",
+      description:
+        "Website development is the process of building, programming, coding and maintaining websites and web applications.",
     },
     // {
     //   id: 2,
@@ -37,5 +37,5 @@ export const aboutData = {
     //   title: 'Web Developer',
     //   description: 'Website development is the process of building, programming, coding and maintaining websites and web applications.'
     // }
-  ]
+  ],
 };

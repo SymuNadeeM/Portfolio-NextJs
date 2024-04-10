@@ -11,7 +11,7 @@ export default function Home() {
         <TitleText title={aboutData.about.title} />
 
         {aboutData.about.description.map((paragraph, index) => (
-          <p key={index} className="max-w-[632px] leading-7">
+          <p key={index} className="max-w-[630px] leading-7">
             {paragraph}
           </p>
         ))}
