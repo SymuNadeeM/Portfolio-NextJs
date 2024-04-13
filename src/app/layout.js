@@ -10,17 +10,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <div className="pt-[50px] pb-20 w-full h-screen bg-cover bg-no-repeat">
+    <div className="pt-[50px] pb-20">
       <Navbar />
       <div className="container_fluid pt-14">
-        <div className="grid xl:grid-cols-3 gap-7">
+        <div className="grid  xl:grid-cols-3 gap-7">
           <div className="xl:col-span-1">
-          <SideBar />
+            <SideBar />
           </div>
           <main className="xl:col-span-2">
-             <Menubar />
-             {children}
-            </main>
+            <Menubar />
+            {children}
+          </main>
         </div>
       </div>
     </div>
