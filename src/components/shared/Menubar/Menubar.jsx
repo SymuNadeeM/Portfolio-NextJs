@@ -1,4 +1,4 @@
-import { menubarData } from "@/app/data/menubarData";
+import { menubarData } from "@/data/menubarData";
 import Link from "next/link";
 
 const Menubar = () => {

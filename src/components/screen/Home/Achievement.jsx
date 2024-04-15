@@ -1,4 +1,5 @@
-import { aboutData } from "@/app/data/aboutPage";
+import { aboutData } from "@/data/aboutPage";
+
 
 const Achievement = () => {
   return (

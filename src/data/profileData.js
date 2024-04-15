@@ -10,6 +10,7 @@ import {
 import { FaLocationDot } from "react-icons/fa6";
 import userPic from "../assets/Symun2.jpg";
 
+
 export const profileData = [
   {
     name: "Md. Symun Majumdar",

@@ -1,7 +1,8 @@
-import "../app/style/globals.css";
-import SideBar from "./components/shared/ASide/SideBar";
-import Menubar from "./components/shared/Menubar/Menubar";
-import Navbar from "./components/shared/Navbar/Navbar";
+import SideBar from "../components/shared/ASide/SideBar";
+import Menubar from "../components/shared/Menubar/Menubar";
+import Navbar from "../components/shared/Navbar/Navbar";
+import "../style/globals.css";
+
 
 export const metadata = {
   title: "Md. Symun Majumdar",

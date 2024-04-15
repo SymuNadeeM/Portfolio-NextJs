@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logo from "../../../assets/wingLogo.png";
 
+
 const Navbar = () => {
   return (
     <nav className="container_fluid">

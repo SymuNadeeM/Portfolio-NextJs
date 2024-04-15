@@ -1,8 +1,9 @@
-import { aboutData } from "@/app/data/aboutPage";
-import Achievement from "./components/screen/Home/Achievement";
-import Experience from "./components/screen/Home/Experience";
-import Interests from "./components/screen/Home/Interests";
-import TitleText from "./components/shared/TitleText";
+import { aboutData } from "@/data/aboutPage";
+import Achievement from "../components/screen/Home/Achievement";
+import Experience from "../components/screen/Home/Experience";
+import Interests from "../components/screen/Home/Interests";
+import TitleText from "../components/shared/TitleText";
+
 
 export default function Home() {
   return (

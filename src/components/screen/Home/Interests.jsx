@@ -1,5 +1,6 @@
-import { aboutData } from "@/app/data/aboutPage";
+import { aboutData } from "@/data/aboutPage";
 import SubTitle from "../../shared/SubTitle";
+
 
 const Interests = () => {
   return (
