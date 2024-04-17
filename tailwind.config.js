@@ -19,7 +19,8 @@ module.exports = {
         emailColor: "#6AB5B9",
         locationColor: "#FD7590",
         calendarColor: "#C17CEB",
-        orange: "#FF972D"
+        orange: "#FF972D",
+        borderRe: "#353535"
       },
       fontFamily: {
         Roboto: "'Roboto Slab', 'serif'",
