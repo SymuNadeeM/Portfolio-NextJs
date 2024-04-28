@@ -1,5 +1,6 @@
 import Educations from "@/components/screen/Resume/Educations";
 import Experience from "@/components/screen/Resume/Experience";
+import SkillAndKnowledge from "@/components/screen/Resume/SkillAndKnowledge";
 import TitleText from "@/components/shared/TitleText";
 
 const page = () => {
@@ -9,6 +10,7 @@ const page = () => {
         <TitleText title="Resume" />
          <Experience />
          <Educations />
+         <SkillAndKnowledge />
       </div>
     </section>
   );
