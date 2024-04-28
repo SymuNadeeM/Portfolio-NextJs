@@ -13,8 +13,24 @@ const SkillAndKnowledge = () => {
         <SubTitle subtitle="Working Skills" />
       </div>
       <div className="grid grid-cols-2 gap-10">
-        <div className="space-y-2">
-          {skillsData.map((skill, index) => (
+        <div className="space-y-3">
+          {skillsData.slice(0,4).map((skill, index) => (
+            <div key={index}>
+              <div className="flex items-center justify-between">
+                <h4>{skill.name}</h4>
+                <h5>{skill.percent}%</h5>
+              </div>
+              <Line
+                percent={skill.percent}
+                strokeWidth={1}
+                trailWidth={1}
+                strokeColor="#41B06E"
+              />
+            </div>
+          ))}
+        </div>
+        <div className="space-y-3">
+          {skillsData.slice(4,7).map((skill, index) => (
             <div key={index}>
               <div className="flex items-center justify-between">
                 <h4>{skill.name}</h4>
