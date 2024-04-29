@@ -20,7 +20,9 @@ module.exports = {
         locationColor: "#FD7590",
         calendarColor: "#C17CEB",
         orange: "#FF972D",
-        borderRe: "#353535"
+        borderRe: "#353535",
+        tealColor: "#5debd7",
+        knowColor:"#1c1c1c"
       },
       fontFamily: {
         Roboto: "'Roboto Slab', 'serif'",
