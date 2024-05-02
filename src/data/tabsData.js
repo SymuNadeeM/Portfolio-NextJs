@@ -1,11 +1,18 @@
+import AllProject from "@/components/screen/Works/AllProject";
+import NextJsProject from "@/components/screen/Works/NextJsProject";
+
 export const tabsData = [
   {
     title: "All",
-    content: <div>1</div>,
+    content: (
+      <div>
+        <AllProject />
+      </div>
+    ),
   },
   {
     title: "Next.js",
-    content: <div>Content of Tab 2</div>,
+    content: <NextJsProject />,
   },
   {
     title: "React",
