@@ -1,6 +1,6 @@
+"use client";
 import { aboutData } from "@/data/aboutPage";
 import SubTitle from "../../shared/SubTitle";
-
 
 const Interests = () => {
   return (
