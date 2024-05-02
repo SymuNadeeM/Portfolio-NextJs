@@ -1,14 +1,18 @@
 export const tabsData = [
   {
-    title: "Tab 1",
-    content: <div>Content of Tab 1</div>,
+    title: "All",
+    content: <div>1</div>,
   },
   {
-    title: "Tab 2",
+    title: "Next.js",
     content: <div>Content of Tab 2</div>,
   },
   {
-    title: "Tab 3",
+    title: "React",
+    content: <div>Content of Tab 3</div>,
+  },
+  {
+    title: "JavaScript",
     content: <div>Content of Tab 3</div>,
   },
 ];

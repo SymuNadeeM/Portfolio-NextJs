@@ -22,7 +22,8 @@ module.exports = {
         orange: "#FF972D",
         borderRe: "#353535",
         tealColor: "#5debd7",
-        knowColor:"#1c1c1c"
+        knowColor:"#1c1c1c",
+        activeColor: "#fa5252"
       },
       fontFamily: {
         Roboto: "'Roboto Slab', 'serif'",
