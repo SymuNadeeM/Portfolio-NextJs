@@ -1,44 +1,62 @@
-export const allProjectData=[
+import pic1 from "../assets/project-img/pic1.jpg";
+import pic2 from "../assets/project-img/pic2.jpg";
+import pic3 from "../assets/project-img/pic3.jpg";
+
+export const allProjectData = [
   {
     id: 1,
-    type:"nextjs",
-    title:"Chul Urina",
-    liveDemo: "#"
+    image: pic1,
+    type: "nextjs",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "",
   },
   {
     id: 2,
-    type:"react",
-    title:"Apple",
-    liveDemo: "#"
+    image: pic2,
+    type: "react",
+    title: "Apple",
+    demoLink: "#",
+    name: "",
   },
   {
     id: 3,
-    type:"nextjs",
-    title:"Chul Urina",
-    liveDemo: "#"
+    image: pic3,
+    type: "nextjs",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "",
   },
   {
     id: 4,
-    type:"React",
-    title:"Chul Urina",
-    liveDemo: "#"
+    image: "",
+    type: "react",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "",
   },
   {
     id: 5,
-    type:"React",
-    title:"Chul Urina",
-    liveDemo: "#"
+    image: "",
+    type: "react",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "",
   },
   {
     id: 6,
-    type:"Javascript",
-    title:"Chul Urina",
-    liveDemo: "#"
+    image: "",
+    type: "Javascript",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "",
   },
   {
     id: 7,
-    type:"nextjs",
-    title:"Chul Urina",
-    liveDemo: "#"
+    image: "",
+    type: "nextjs",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "",
   },
-]
+];

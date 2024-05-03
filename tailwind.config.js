@@ -23,7 +23,8 @@ module.exports = {
         borderRe: "#353535",
         tealColor: "#5debd7",
         knowColor:"#1c1c1c",
-        activeColor: "#fa5252"
+        activeColor: "#fa5252",
+        grayBg:"#0d0d0d"
       },
       fontFamily: {
         Roboto: "'Roboto Slab', 'serif'",
