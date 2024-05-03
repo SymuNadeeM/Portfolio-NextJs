@@ -1,13 +1,13 @@
 import { allProjectData } from "@/data/allProjectData";
 import Link from "next/link";
-const NextJsProject = () => {
-  const nextJsData = allProjectData.filter(
-    (project) => project.type === "nextjs"
-  );
 
+const ReactProject = () => {
+  const reactProjectData = allProjectData.filter(
+    (allData) => allData.type === "react"
+  );
   return (
     <div>
-      {nextJsData.map((item) => (
+      {reactProjectData.map((item) => (
         <div key={item.id}>
           <h1>{item.title}</h1>
           <Link href={item.liveDemo}>Live</Link>
@@ -17,4 +17,4 @@ const NextJsProject = () => {
   );
 };
 
-export default NextJsProject;
+export default ReactProject;

@@ -1,14 +1,11 @@
 import AllProject from "@/components/screen/Works/AllProject";
 import NextJsProject from "@/components/screen/Works/NextJsProject";
+import ReactProject from "@/components/screen/Works/ReactProject";
 
 export const tabsData = [
   {
     title: "All",
-    content: (
-      <div>
-        <AllProject />
-      </div>
-    ),
+    content: <AllProject />,
   },
   {
     title: "Next.js",
@@ -16,7 +13,7 @@ export const tabsData = [
   },
   {
     title: "React",
-    content: <div>Content of Tab 3</div>,
+    content: <ReactProject />,
   },
   {
     title: "JavaScript",
