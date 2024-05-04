@@ -14,7 +14,7 @@ const Tabs = () => {
 
   return (
     <div>
-      <div className="mb-7.5 flex justify-end border">
+      <div className="mb-7.5 flex justify-end">
         {tabsData.map((tab, index) => (
           <div
             key={index}
