@@ -29,7 +29,7 @@ export const allProjectData = [
   },
   {
     id: 4,
-    image: "",
+    image: pic1,
     type: "react",
     title: "Chul Urina",
     demoLink: "#",
@@ -37,7 +37,7 @@ export const allProjectData = [
   },
   {
     id: 5,
-    image: "",
+    image: pic2,
     type: "react",
     title: "Chul Urina",
     demoLink: "#",
@@ -45,7 +45,7 @@ export const allProjectData = [
   },
   {
     id: 6,
-    image: "",
+    image: pic1,
     type: "Javascript",
     title: "Chul Urina",
     demoLink: "#",
@@ -53,7 +53,7 @@ export const allProjectData = [
   },
   {
     id: 7,
-    image: "",
+    image: pic2,
     type: "nextjs",
     title: "Chul Urina",
     demoLink: "#",
