@@ -21,7 +21,7 @@ const AllProject = () => {
             </Link>
             <span className="text-xs capitalize">{items.title}</span>
             <Link href={"#"}>
-              <h5 className="font-medium capitalize">{items.name}</h5>
+            <h5 className="font-medium text-white hover:text-activeColor duration-300 leading-6 capitalize">{items.name}</h5>
             </Link>
           </div>
         ))}
@@ -42,7 +42,7 @@ const AllProject = () => {
             </Link>
             <span className="text-xs capitalize">{items.title}</span>
             <Link href={"#"}>
-              <h5 className="font-medium capitalize">{items.name}</h5>
+              <h5 className="font-medium text-white hover:text-activeColor duration-300 leading-6 capitalize">{items.name}</h5>
             </Link>
           </div>
         ))}

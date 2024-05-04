@@ -9,23 +9,23 @@ export const allProjectData = [
     type: "nextjs",
     title: "Chul Urina",
     demoLink: "#",
-    name: "",
+    name: "E-Commerce",
   },
   {
     id: 2,
-    image: pic2,
+    image: pic3,
     type: "react",
     title: "Apple",
     demoLink: "#",
-    name: "",
+    name: "Mobile-Shop",
   },
   {
     id: 3,
-    image: pic3,
+    image: pic2,
     type: "nextjs",
     title: "Chul Urina",
     demoLink: "#",
-    name: "",
+    name: "E-Commerce",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const allProjectData = [
     type: "react",
     title: "Chul Urina",
     demoLink: "#",
-    name: "",
+    name: "Admin Dashboard",
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ export const allProjectData = [
     type: "react",
     title: "Chul Urina",
     demoLink: "#",
-    name: "",
+    name: "Chart Board",
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ export const allProjectData = [
     type: "Javascript",
     title: "Chul Urina",
     demoLink: "#",
-    name: "",
+    name: "E-Commerce",
   },
   {
     id: 7,
@@ -57,6 +57,6 @@ export const allProjectData = [
     type: "nextjs",
     title: "Chul Urina",
     demoLink: "#",
-    name: "",
+    name: "NewsPaper",
   },
 ];
