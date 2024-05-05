@@ -59,4 +59,28 @@ export const allProjectData = [
     demoLink: "#",
     name: "NewsPaper",
   },
+  {
+    id: 8,
+    image: pic1,
+    type: "Javascript",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "E-Commerce",
+  },
+  {
+    id: 9,
+    image: pic2,
+    type: "react",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "Chart Board",
+  },
+  {
+    id: 10,
+    image: pic1,
+    type: "Javascript",
+    title: "Chul Urina",
+    demoLink: "#",
+    name: "E-Commerce",
+  },
 ];
