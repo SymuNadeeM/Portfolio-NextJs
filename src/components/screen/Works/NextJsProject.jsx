@@ -1,18 +1,14 @@
 import { allProjectData } from "@/data/allProjectData";
-import Link from "next/link";
+import ProjectPageStructure from "./ProjectPageStructure";
 const NextJsProject = () => {
   const nextJsData = allProjectData.filter(
     (project) => project.type === "nextjs"
   );
+  const halfLength = Math.ceil(nextJsData.length / 2);
 
   return (
     <div>
-      {nextJsData.map((item) => (
-        <div key={item.id}>
-          <h1>{item.title}</h1>
-          <Link href={item.liveDemo}>Live</Link>
-        </div>
-      ))}
+      <ProjectPageStructure ProjectData={nextJsData} halfLength={halfLength} />
     </div>
   );
 };

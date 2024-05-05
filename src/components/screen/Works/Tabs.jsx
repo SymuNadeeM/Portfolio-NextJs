@@ -4,7 +4,7 @@ import { tabsData } from "@/data/tabsData";
 import { useState } from "react";
 
 const Tabs = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(1);
   // const [count, setCount] = useState(0);
 
   // const handleClick = () => {
