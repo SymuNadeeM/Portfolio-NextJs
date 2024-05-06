@@ -1,15 +1,16 @@
 "use client";
-// import { useState } from "react";
 import { tabsData } from "@/data/tabsData";
 import { useState } from "react";
 
+
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState(2);
-  // const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
-  // const handleClick = () => {
-  //   setCount(count + 1);
-  // };
+  const handleClick = () => {
+    console.log("Clicked tab index:", index);
+    setCount(count + 1);
+  };
   
 
   return (
@@ -32,10 +33,10 @@ const Tabs = () => {
       </div>
 
       <div>{tabsData[activeTab].content}</div>
-      {/* <div>
+      <div>
         <p>Count: {count}</p>
         <button onClick={handleClick}>Increment</button>
-      </div> */}
+      </div>
     </div>
   );
 };
