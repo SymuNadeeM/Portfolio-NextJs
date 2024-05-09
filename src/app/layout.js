@@ -1,4 +1,4 @@
-import SideBar from "../components/shared/ASide/SideBar";
+import SideBar from "@/components/shared/ASide/SideBar";
 import Menubar from "../components/shared/Menubar/Menubar";
 import Navbar from "../components/shared/Navbar/Navbar";
 import "../style/globals.css";
@@ -10,10 +10,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <div className="pt-[50px] pb-20">
+    <div className="pt-9 md:pt-13 pb-20">
       <Navbar />
-      <div className="container_fluid pt-14">
-        <div className="grid  xl:grid-cols-3 gap-7">
+      <div className="container_fluid pt-9 md:pt-14">
+        <div className="xl:grid  xl:grid-cols-3 gap-7">
           <div className="xl:col-span-1">
             <SideBar />
           </div>

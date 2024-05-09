@@ -12,11 +12,11 @@ const Navbar = () => {
   };
   return (
     <nav className="container_fluid">
-      <div className="px-[15px]">
+      <div className="md:px-[15px]">
         {/* large screen */}
-        <div className="p-5 flex items-center justify-between">
+        <div className="md:p-5 flex items-center justify-between">
           {/* logo */}
-          <div className="w-[200px] h-[55px]">
+          <div className="w-[120px] h-[45px] md:w-[200px] md:h-[55px]">
             <Image
               src={logo}
               alt="logo"

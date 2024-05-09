@@ -19,7 +19,7 @@ const SideBar = () => {
               />
             </div>
           </div>
-          <h4 className="text-xl xl:text-2xl leading-4 font-medium text-white mb-3">
+          <h4 className="mb-5 xl:mb-3 text-xl xl:text-2xl leading-4 font-medium text-white">
             {profileData.name}
           </h4>
           <span className="px-5 py-2 rounded-md  font-medium bg-grayBackground text-grayText">
