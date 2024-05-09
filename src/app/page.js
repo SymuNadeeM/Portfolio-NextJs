@@ -7,7 +7,7 @@ import TitleText from "../components/shared/TitleText";
 
 export default function Home() {
   return (
-    <section>
+    <div>
       <div className="mt-10 p-13 bg-black rounded-[20px]">
         <TitleText title={aboutData.about.title} />
 
@@ -20,6 +20,6 @@ export default function Home() {
         <Interests />
         <Experience />
       </div>
-    </section>
+    </div>
   );
 }
