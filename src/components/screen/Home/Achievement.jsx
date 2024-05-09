@@ -3,7 +3,7 @@ import { aboutData } from "@/data/aboutPage";
 
 const Achievement = () => {
   return (
-    <div className="mt-10 grid grid-cols-3 gap-3">
+    <div className="mt-10 flex flex-wrap sm:grid sm:grid-cols-3  gap-3">
       {aboutData.achievements.map((achievement, index) => (
         <div
           key={index}

@@ -15,7 +15,7 @@ const Experience = () => {
             <h4 className="text-orange font-semibold">{experience.year}</h4>
             <p className="font-medium text-tealColor">- {experience.company}</p>
           </div>
-          <h3 className="text-xl text-white">{experience.title}</h3>
+          <h3 className="sm:text-xl text-white">{experience.title}</h3>
           <p className="text-sm">{experience.description}</p>
         </div>
       ))}
