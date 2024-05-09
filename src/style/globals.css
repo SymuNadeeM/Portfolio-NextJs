@@ -88,3 +88,8 @@ h5 {
     #dd2476
   ); /* Gradient on hover */
 }
+.button_sub:hover {
+  color: #fff !important;
+  transition-duration: 0.3s;
+  background-image: linear-gradient(to right, #fa5252, #dd2476);
+}

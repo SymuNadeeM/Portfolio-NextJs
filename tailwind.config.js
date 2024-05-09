@@ -22,9 +22,10 @@ module.exports = {
         orange: "#FF972D",
         borderRe: "#353535",
         tealColor: "#5debd7",
-        knowColor:"#1c1c1c",
+        knowColor: "#1c1c1c",
         activeColor: "#fa5252",
-        grayBg:"#0d0d0d"
+        grayBg: "#0d0d0d",
+        border_Sub: "#44566c"
       },
       fontFamily: {
         Roboto: "'Roboto Slab', 'serif'",
@@ -34,19 +35,23 @@ module.exports = {
         2.5: "10px",
         3.5: "15px",
         7.5: "30px",
+        11.5: "45px",
         13: "50px",
+        15: "60px",
         25: "100px",
       },
       margin: {
         2.5: "10px",
         3.5: "15px",
         7.5: "30px",
+        11.5: "45px",
         13: "50px",
+        15: "60px",
         25: "100px",
       },
-      fontSize:{
-        3.5 : "36px"
-      }
+      fontSize: {
+        3.5: "36px",
+      },
     },
   },
   plugins: [],
