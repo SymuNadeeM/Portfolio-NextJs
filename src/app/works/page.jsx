@@ -4,7 +4,7 @@ import TitleText from "@/components/shared/TitleText";
 const WorkPage = () => {
   return (
     <section>
-      <div className="mt-10 p-13 bg-black rounded-[20px]">
+      <div className="mt-10 p-5 sm:p-13 bg-black rounded-[20px]">
         <TitleText title="Portfolio" />
         <Tabs />
       </div>

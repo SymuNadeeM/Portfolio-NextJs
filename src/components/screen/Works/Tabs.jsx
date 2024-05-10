@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 const Tabs = () => {
-  const [activeTab, setActiveTab] = useState(2);
+  const [activeTab, setActiveTab] = useState(0);
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -15,7 +15,7 @@ const Tabs = () => {
 
   return (
     <div>
-      <div className="mb-7.5 flex justify-end">
+      <div className="mb-7.5 flex flex-wrap justify-end">
         {tabsData.map((tab, index) => (
           <div
             key={index}
