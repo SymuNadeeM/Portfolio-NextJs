@@ -63,7 +63,7 @@ const SideBar = () => {
           <div className="flex items-center justify-center">
             <Link
               href="#"
-              className="h-[53px] w-[205px] rounded-[10px] border border-transparent text-white text-lg bg-gradient-to-r from-[#fa5252] to-[#dd2476] flex items-center justify-center"
+              className="h-[53px] w-[205px] rounded-[10px] border border-transparent text-white text-lg bg-gradient-to-r from-[#fa5252] to-[#dd2476] flex items-center justify-center hover:bg-gradient-to-br"
             >
               <span>
                 <IoMdDownload className="text-lg mr-1" />

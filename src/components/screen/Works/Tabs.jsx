@@ -15,11 +15,11 @@ const Tabs = () => {
 
   return (
     <div>
-      <div className="mb-7.5 flex flex-wrap justify-end">
+      <div className="mb-7.5 flex  sm:justify-end">
         {tabsData.map((tab, index) => (
           <div
             key={index}
-            className={`px-[18px] font-medium rounded cursor-pointer ${
+            className={`px-2 sm:px-[18px] font-medium rounded cursor-pointer ${
               activeTab === index ? "text-activeColor" : ""
             }`}
             onClick={() => {
